@@ -6,6 +6,27 @@
   box-sizing: border-box;
 }
 
+
+header {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+header h1 {
+  font-family: "Megrim", cursive;
+  text-align: initial;
+}
+
+nav {
+  text-align: right;
+}
+
+nav > a {
+  padding: 0 0.5rem;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -20,7 +41,6 @@ body {
   width: 100%;
   max-width: 600px;
   background-color: #ffffff;
-  background-image: url("tr-bg.png");
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
